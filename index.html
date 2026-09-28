@@ -635,201 +635,317 @@ a{text-decoration:none;color:inherit}
       <span>العودة إلى الصفحة الرئيسية</span>
     </button>
 
-    <div class="svcGrid">
+<div class="svcGrid">
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service1')" onkeydown="serviceKey(event,'service1')">
-        <span class="svcNumber">01</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M5 4h10l4 4v12H5z"/>
-            <path d="M15 4v5h4M8 13h8M8 17h6M8 9h3"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير عام</div>
-          <div class="svcDesc">تقرير مدعوم بصورتين وباركود بالبرامج العامة</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+  <!-- 01 — تقرير عام -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service1')"
+    onkeydown="serviceKey(event,'service1')">
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service3')" onkeydown="serviceKey(event,'service3')">
-        <span class="svcNumber">02</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M6 4h12v16H6z"/>
-            <path d="M9 8h6M9 12h6M9 16h4"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير تفعيل ( حصة نشاط )</div>
-          <div class="svcDesc">تقرير ونموذج صادر من وزارة التعليم</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <span class="svcNumber">01</span>
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service9')" onkeydown="serviceKey(event,'service9')">
-        <span class="svcNumber">03</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 3v18M3 12h18"/>
-            <circle cx="12" cy="12" r="8"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير تنفيذ ( إذاعة مدرسية )</div>
-          <div class="svcDesc">تقرير مدعوم بصورتين وباركود</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M5 4h10l4 4v12H5z"/>
+        <path d="M15 4v5h4M8 13h8M8 17h6M8 9h3"/>
+      </svg>
+    </div>
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service7')" onkeydown="serviceKey(event,'service7')">
-        <span class="svcNumber">04</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M4 5h16v14H4z"/>
-            <path d="M8 9h8M8 13h5"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير تنفيذ ( مسابقة )</div>
-          <div class="svcDesc">نموذج صادر من وزارة التعليم</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <div class="svcText">
+      <div class="svcName">تقرير عام</div>
+      <div class="svcDesc">تقرير مدعوم بصورتين وباركود بالبرامج العامة</div>
+    </div>
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service8')" onkeydown="serviceKey(event,'service8')">
-        <span class="svcNumber">05</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="8"/>
-            <path d="M12 8v4l3 2"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير تنفيذ ( مبادرة )</div>
-          <div class="svcDesc">نموذج صادر من وزارة التعليم</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service2')" onkeydown="serviceKey(event,'service2')">
-        <span class="svcNumber">06</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 3.5 14.4 8l5 .7-3.6 3.5.9 5-4.7-2.4-4.7 2.4.9-5-3.6-3.5 5-.7z"/>
-            <path d="M8 20h8"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">إصدار شهادة شكر مفردة</div>
-          <div class="svcDesc">شهادة شكر بعدة أشكال</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service5')" onkeydown="serviceKey(event,'service5')">
-        <span class="svcNumber">07</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 3.5 14.2 8l4.8.7-3.5 3.4.8 4.8-4.3-2.3-4.3 2.3.8-4.8L5 8.7 9.8 8z"/>
-            <path d="M4 20h16"/>
-            <path d="M7 18h10"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">إصدار شهادات شكر متعددة</div>
-          <div class="svcDesc">شهادات شكر بعدة أشكال</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+  <!-- 02 — تقرير تفعيل حصة النشاط -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service3')"
+    onkeydown="serviceKey(event,'service3')">
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service4')" onkeydown="serviceKey(event,'service4')">
-        <span class="svcNumber">08</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <circle cx="8" cy="8" r="2.7"/>
-            <circle cx="16" cy="9" r="2.7"/>
-            <path d="M3.5 19c.5-3 2-4.5 4.5-4.5S12 16 12.5 19"/>
-            <path d="M12 19c.4-2.7 1.8-4 4-4 2.3 0 3.6 1.4 4 4"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير التواصل مع ولي الأمر</div>
-          <div class="svcDesc">تقرير مدعوم بصورة واحدة</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <span class="svcNumber">02</span>
 
-      <article class="svc" role="button" tabindex="0" onclick="goService('service6')" onkeydown="serviceKey(event,'service6')">
-        <span class="svcNumber">09</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <path d="M4 18h16"/>
-            <path d="M6 18V8l6-4 6 4v10"/>
-            <path d="M9 18v-5h6v5"/>
-            <path d="M12 7v2"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">إصدار ( إعلان مدرسي )</div>
-          <div class="svcDesc">إنشاء وإصدار إعلان للمدرسة</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M6 4h12v16H6z"/>
+        <path d="M9 8h6M9 12h6M9 16h4"/>
+      </svg>
+    </div>
 
-      
-      <!-- 10 — خدمة تثبيت الغياب اليومي للطلبة عبر باركود -->
-      <article class="svc" role="button" tabindex="0" onclick="goService('service10')" onkeydown="serviceKey(event,'service10')">
-        <span class="svcNumber">10</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <rect x="4" y="5" width="16" height="15" rx="2"/>
-            <path d="M8 3v4M16 3v4"/>
-            <path d="M7 10h10"/>
-            <path d="m8 14 2 2 5-5"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">توثيق الغياب الذكي</div>
-          <div class="svcDesc">لطلب الخدمة عبر واتساب</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <div class="svcText">
+      <div class="svcName">تقرير تفعيل حصة النشاط</div>
+      <div class="svcDesc">تقرير ونموذج صادر من وزارة التعليم</div>
+    </div>
 
-      <!-- 11 — إحالة طالبة -->
-      <article class="svc" role="button" tabindex="0" onclick="goService('service11')" onkeydown="serviceKey(event,'service11')">
-        <span class="svcNumber">11</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <circle cx="9" cy="8" r="3"/>
-            <path d="M4 19c0-3 2-5 5-5s5 2 5 5"/>
-            <path d="M14 12h6"/>
-            <path d="m17 9 3 3-3 3"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">الإحالة الطلابية الذكية</div>
-          <div class="svcDesc">إحالة إلكترونية متكاملة بين المعلمة والوكيلة والمرشدة</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
 
-      <!-- 12 — خدمة مستقبلية -->
-      <article class="svc" role="button" tabindex="0" onclick="goService('service12')" onkeydown="serviceKey(event,'service12')">
-        <span class="svcNumber">12</span>
-        <div class="svcIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="8"/>
-            <path d="M12 7v5l3 2"/>
-            <path d="M8 3.5 6.5 2M16 3.5 17.5 2"/>
-          </svg>
-        </div>
-        <div class="svcText">
-          <div class="svcName">تقرير قياس الأثر</div>
-          <div class="svcDesc">استمارة تقييم وقياس مدعومة بباركود</div>
-        </div>
-        <span class="svcArrow" aria-hidden="true">←</span>
-      </article>
+
+  <!-- 03 — تقرير تنفيذ إذاعة مدرسية -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service9')"
+    onkeydown="serviceKey(event,'service9')">
+
+    <span class="svcNumber">03</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 3v18M3 12h18"/>
+        <circle cx="12" cy="12" r="8"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">تقرير تنفيذ إذاعة مدرسية</div>
+      <div class="svcDesc">تقرير مدعوم بصورتين وباركود</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 04 — تقرير تنفيذ مسابقة -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service7')"
+    onkeydown="serviceKey(event,'service7')">
+
+    <span class="svcNumber">04</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M4 5h16v14H4z"/>
+        <path d="M8 9h8M8 13h5"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">تقرير تنفيذ مسابقة</div>
+      <div class="svcDesc">نموذج صادر من وزارة التعليم</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 05 — تقرير تنفيذ مبادرة -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service8')"
+    onkeydown="serviceKey(event,'service8')">
+
+    <span class="svcNumber">05</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="8"/>
+        <path d="M12 8v4l3 2"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">تقرير تنفيذ مبادرة</div>
+      <div class="svcDesc">نموذج صادر من وزارة التعليم</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 06 — تقرير قياس الأثر -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service12')"
+    onkeydown="serviceKey(event,'service12')">
+
+    <span class="svcNumber">06</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="8"/>
+        <path d="M12 7v5l3 2"/>
+        <path d="M8 3.5 6.5 2M16 3.5 17.5 2"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">تقرير قياس الأثر</div>
+      <div class="svcDesc">استمارة تقييم وقياس مدعومة بباركود</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 07 — تقرير المجتمع المهني -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service13')"
+    onkeydown="serviceKey(event,'service13')">
+
+    <span class="svcNumber">07</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <circle cx="8" cy="8" r="3"/>
+        <circle cx="16" cy="8" r="3"/>
+        <path d="M3.5 19c.5-3 2-5 4.5-5s4 2 4.5 5"/>
+        <path d="M11.5 19c.5-3 2-5 4.5-5s3.6 2 4 5"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">تقرير المجتمع المهني</div>
+      <div class="svcDesc">استمارة جلسات المجتمع المهني</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 08 — إصدار شهادات مفردة -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service2')"
+    onkeydown="serviceKey(event,'service2')">
+
+    <span class="svcNumber">08</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 3.5 14.4 8l5 .7-3.6 3.5.9 5-4.7-2.4-4.7 2.4.9-5-3.6-3.5 5-.7z"/>
+        <path d="M8 20h8"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">إصدار شهادات مفردة</div>
+      <div class="svcDesc">شهادة شكر بعدة أشكال</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 09 — إصدار شهادات متعددة -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service5')"
+    onkeydown="serviceKey(event,'service5')">
+
+    <span class="svcNumber">09</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 3.5 14.2 8l4.8.7-3.5 3.4.8 4.8-4.3-2.3-4.3 2.3.8-4.8L5 8.7 9.8 8z"/>
+        <path d="M4 20h16"/>
+        <path d="M7 18h10"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">إصدار شهادات متعددة</div>
+      <div class="svcDesc">شهادات شكر بعدة أشكال</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 10 — تقرير تواصل مع ولي الأمر -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service4')"
+    onkeydown="serviceKey(event,'service4')">
+
+    <span class="svcNumber">10</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <circle cx="8" cy="8" r="2.7"/>
+        <circle cx="16" cy="9" r="2.7"/>
+        <path d="M3.5 19c.5-3 2-4.5 4.5-4.5S12 16 12.5 19"/>
+        <path d="M12 19c.4-2.7 1.8-4 4-4 2.3 0 3.6 1.4 4 4"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">تقرير تواصل مع ولي الأمر</div>
+      <div class="svcDesc">تقرير مدعوم بصورة واحدة</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 11 — إصدار إعلان -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service6')"
+    onkeydown="serviceKey(event,'service6')">
+
+    <span class="svcNumber">11</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M4 18h16"/>
+        <path d="M6 18V8l6-4 6 4v10"/>
+        <path d="M9 18v-5h6v5"/>
+        <path d="M12 7v2"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">إصدار إعلان</div>
+      <div class="svcDesc">إنشاء وإصدار إعلان للمدرسة</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 12 — توثيق الغياب -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service10')"
+    onkeydown="serviceKey(event,'service10')">
+
+    <span class="svcNumber">12</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <rect x="4" y="5" width="16" height="15" rx="2"/>
+        <path d="M8 3v4M16 3v4"/>
+        <path d="M7 10h10"/>
+        <path d="m8 14 2 2 5-5"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">توثيق الغياب</div>
+      <div class="svcDesc">لطلب الخدمة عبر واتساب</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
+
+
+  <!-- 13 — الإحالة الطلابية -->
+  <article class="svc" role="button" tabindex="0"
+    onclick="goService('service11')"
+    onkeydown="serviceKey(event,'service11')">
+
+    <span class="svcNumber">13</span>
+
+    <div class="svcIcon" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <circle cx="9" cy="8" r="3"/>
+        <path d="M4 19c0-3 2-5 5-5s5 2 5 5"/>
+        <path d="M14 12h6"/>
+        <path d="m17 9 3 3-3 3"/>
+      </svg>
+    </div>
+
+    <div class="svcText">
+      <div class="svcName">الإحالة الطلابية</div>
+      <div class="svcDesc">إحالة إلكترونية متكاملة بين المعلمة والوكيلة والمرشدة</div>
+    </div>
+
+    <span class="svcArrow" aria-hidden="true">←</span>
+  </article>
 
 </div>
 
@@ -1104,13 +1220,21 @@ const SERVICE_URLS = {
     "https://forms.gle/HDi9KKVj8VBupjmW9",
 
   service9:
-    "https://forms.gle/X2wkPDUbJKU9JoUEA",
-  service10: "https://drive.google.com/file/d/15hCrZXrS0xxMx7dp1ybymUVKDsF-Krgg/view?usp=sharing",
-  service11: "https://drive.google.com/file/d/1ksx52jnvpYE9veSidBLB8HpPlcEgq-iV/view?usp=sharing",
-  service12: "https://forms.gle/QyoHdj8pX7nnd5gu8"
-  
-};
+    "https://forms.gle/gnpz2QAf3thxSjj28",
 
+  service10:
+    "https://drive.google.com/file/d/15hCrZXrS0xxMx7dp1ybymUVKDsF-Krgg/view?usp=sharing",
+
+  service11:
+    "https://drive.google.com/file/d/1ksx52jnvpYE9veSidBLB8HpPlcEgq-iV/view?usp=sharing",
+
+  service12:
+    "https://forms.gle/94rjpLvDaAwyivnz8",
+
+  service13:
+    "https://forms.gle/4fJrdSQYKu8X7aNV9"
+
+};
 
 /*************************************************
  * عدادات الخدمات
